@@ -22,7 +22,7 @@ const style = {
   left: "50%",
   transform: "translate(-50%, -50%)",
   maxWidth: "300px",
-  minWidth: "90%",
+  minWidth: "83%",
   minHeight: "105px",
   backgroundColor: "background.paper",
   border: "0",
@@ -31,7 +31,7 @@ const style = {
   boxShadow: 24,
 };
 
-const ModalToken = ({
+const ModalTokenInfos = ({
   tokenAsset,
   selectedToken,
   open,
@@ -119,4 +119,4 @@ const ModalToken = ({
   );
 };
 
-export default ModalToken;
+export default ModalTokenInfos;
